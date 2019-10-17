@@ -1,0 +1,21 @@
+** Git
+
+$ git clone https:       // download a branch
+
+$ git branch   // should see master
+
+$ git checkout -b NewBranchName  //create a new branch NewBranchName
+
+// you can see any branch that is on git by using $git checkout BranchName
+
+Create a file in your favorite editor filename.ext
+
+$ git add filename.ext     //puts it to the stagging 
+
+$ git rm filename.ext    // remove file from staggging
+
+$ git commit              // commit the last added filed
+
+$ git commit -a           // commit all the last added file
+
+$ git commit  -m 'Here is the comment to the file'            // commit the last added filed
